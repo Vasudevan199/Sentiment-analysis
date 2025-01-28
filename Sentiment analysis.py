@@ -7,8 +7,8 @@ import seaborn as sns
 import warnings
 
 # Load datasets
-train_data = pd.read_csv('drive/My Drive/Projects/Twitter Sentiment/train_tweet.csv')
-test_data = pd.read_csv('drive/My Drive/Projects/Twitter Sentiment/test_tweets.csv')
+train_data = 'dataset path of the train data'
+test_data = 'dataset path of the test data'
 
 print(train_data.shape)
 print(test_data.shape)
